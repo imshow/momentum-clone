@@ -1,5 +1,54 @@
 body {
-  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.contents {
+  top: 500px;
+  color: white;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.js-clock {
+  font-size: 20vh;
+  font-weight: 500;
+}
+
+.js-greetings {
+  font-size: 5vh;
+  margin-top: 3vh;
+}
+
+input {
+  font-size: 5vh;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+  border-bottom: 4px solid white;
+  text-align: center;
+  margin-top: 3vh;
+  outline: none;
+}
+
+input::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+li {
+  font-size: 5vh;
+  color: white;
+  opacity: 0.9;
+  margin-top: 2vh;
+}
+
+button {
+  font-size: 4vh;
 }
 
 .form,
@@ -9,6 +58,11 @@ body {
 
 .showing {
   display: block;
+}
+
+.js-toDoList {
+  list-style: none;
+  text-align: left;
 }
 
 .bgImage {
@@ -28,4 +82,13 @@ body {
   to {
     opacity: 1;
   }
+}
+
+.js-weather {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  opacity: 0.9;
+  font-size: 30px;
+  font-weight: 100;
 }

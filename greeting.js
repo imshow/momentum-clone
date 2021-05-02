@@ -27,7 +27,7 @@ function askForName() {
 function paintGreeting(text) {
   form.classList.remove(SHOWING_CN);
   greeting.classList.add(SHOWING_CN);
-  greeting.innerText = `Hello ${text}`;
+  greeting.innerText = `Hello, ${text}!`;
 }
 //입력필드를 지우고 greeting을 보여준다. greeting의 텍스트르 변경한다
 
